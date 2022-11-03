@@ -1,14 +1,12 @@
 Name: Sophia Dai
 
-Helped by TA
+Helped by TA, and source: https://gitlab.bucknell.edu/wx002/csci363/blob/5ea881e7a16ef5022f16fd3e78659f0bf0a2dc70/pyLabs/Py04b/Traceroute.py
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
-At first, it was confused to understand what we should do to make the code complete. It was helpful to look 
-ICMPtraceroute file while doing the ICMPpinger, I found they are sort of complementary. 
-ICMPtraceroute.py helped me get a better understand of ICMP and what the two files are doing. But at first,
-it was hard to get started. 
-My advice is before start coding, take a look of the whole files and get a basic 
-understanding of what they are doing and ask for help if you need. 
+At first, it was confused to understand what we should do to make the code complete. It was helpful to look ICMPtraceroute file while doing the
+ICMPpinger, I found they are sort of complementary. 
+ICMPtraceroute.py helped me get a better understand of ICMP and what the two files are doing. But at first, it was hard to get started. 
+My advice is before start coding, take a look of the whole files and get a basic understanding of what they are doing and ask for help if you need. 
 
 
 
