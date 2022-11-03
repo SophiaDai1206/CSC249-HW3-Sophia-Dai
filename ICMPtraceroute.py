@@ -22,7 +22,7 @@ def build_packet():
 
     # Fill in start #
 
-    # Make a dummy header with a 0 checksum
+    # Make a header with a 0 checksum
     myChecksum = 0
 
     ID = os.getpid() & 0xFFFF
@@ -33,7 +33,8 @@ def build_packet():
 
         # Append checksum to the header.
     myChecksum = checksum(''.join(map(chr, header + data)))
-    # myChecksum = checksum(header + data)
+    
+    # Get the right checksum, and put in the header
     if sys.platform == 'darwin':
         # Convert 16-bit integers from host to network byte order
         myChecksum = htons(myChecksum) & 0xffff
